@@ -1,5 +1,5 @@
 {
-  "source": "Built-in image generation in Codex, using fictional public-demo input",
+  "source": "Built-in imagegen in Codex; fictional public demonstration redesigned at the user’s request",
   "jobId": "native-demo-r1-p01",
   "contentDigest": "53fa5213eb4958d2847bffe836561fb46d29c0fdc3f9528864f8e564e8add035",
   "image": "native-demo.png",
@@ -7,11 +7,15 @@
     1024,
     1536
   ],
-  "sha256": "b414605ab9f2ee1d1ecd66f65629b3dd38de5d3ea6e98d0b2572cfd1e4dc2b8c",
+  "sha256": "79c4e11fceb570952448b031a373119fbbfd773a4a40ba881a4248f1cdb39d47",
   "prompt": "native-demo.prompt.txt",
-  "executedPromptDigest": "ed4dcd314710c998b7ac380291cf5fdb02c046d993fb40f00de63af4b4d178ad",
+  "executedPromptDigest": "1af0d6079d7e1a5d7b57273d559a7ee56ff2bad1e2a50655bcb9e97280b1e831",
   "model": null,
   "reviewMethod": "agent-visual",
   "userAcceptance": "not-recorded",
-  "scope": "One real native-tool example, not a benchmark or proof of other hosts or paid API services."
+  "scope": "Same fictional itinerary; redesigned artwork with the actual executed prompt preserved. New native generation, not a live paid API or other-host test.",
+  "generationRevision": 2,
+  "previousArtifactSha256": "b414605ab9f2ee1d1ecd66f65629b3dd38de5d3ea6e98d0b2572cfd1e4dc2b8c",
+  "reviewNotes": "Inspected the newly generated image: DAY 01 杭州; 2027-03-21; fictional itinerary title; 09:30 湖边散步; 12:00 午饭 and 简单吃饭; 14:30 喝茶与休息; 17:00 结束一天. All entries readable, in order and without overlap. Connected watercolor scenery is illustrative, not geographic evidence.",
+  "workflowValidation": "Compiled request, actual image collection, bound agent visual review and reviewed ZIP verified for this artwork revision."
 }

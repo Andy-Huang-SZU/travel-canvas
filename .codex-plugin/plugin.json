@@ -1,6 +1,6 @@
 {
   "name": "travel-canvas",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "description": "旅行图片工作流：请求编译、可配置API、原生收图、核对与打包。Alpha；真实API和跨宿主执行仍待验证。",
   "skills": "./skills/"
 }

@@ -5,7 +5,7 @@
 
 Turn supplied travel facts into illustrated itinerary pages and reusable generation materials. Keep facts, output scope, visual templates and providers separate. Includes a self-contained Agent Skill, CLI and Codex plugin wrapper.
 
-**0.1.0-alpha.** Planning, native/manual collection, configurable API transports, evidence binding and ZIP packaging are implemented. Paid providers, other host execution and the final precise-layout renderer remain unverified or unfinished. The presentation document uses a separate version.
+**0.1.1-alpha.** Planning, native/manual collection, configurable API transports, evidence binding and ZIP packaging are implemented. Paid providers, other host execution and the final precise-layout renderer remain unverified or unfinished. The presentation document uses a separate version.
 
 ## Try it
 

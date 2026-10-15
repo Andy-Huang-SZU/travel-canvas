@@ -1,6 +1,6 @@
 {
   "name": "travel-canvas",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "private": true,
   "type": "module",
   "engines": {
@@ -14,7 +14,10 @@
     "package": "node scripts/package.mjs"
   },
   "license": "MIT",
-  "repository": {"type":"git","url":"https://github.com/Andy-Huang-SZU/travel-canvas.git"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andy-Huang-SZU/travel-canvas.git"
+  },
   "homepage": "https://github.com/Andy-Huang-SZU/travel-canvas#readme",
   "description": "Portable travel-image workflow: offline planning, configurable API transport, native/manual collection, review binding and packaging."
 }

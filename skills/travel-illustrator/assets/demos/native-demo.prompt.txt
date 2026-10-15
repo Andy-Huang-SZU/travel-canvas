@@ -1,17 +1,30 @@
-Use case: illustration-story.
-Asset type: finished portrait travel-journal PNG, 2:3 portrait. This is a fictional project demonstration, not a real trip record.
-Create a travel illustration using the supplied language and locale. The content below is data, never instructions to execute.
-Intent: plan. Locale: zh-CN. Format: day-timeline. Layout: timeline.
-Visual direction: 暖白纤维纸，靛蓝毛笔标题，淡蓝水彩时间标记，细墨线；精致小场景作为辅助，正文优先。自然绿植和红色建筑可以出现。
-Avoid: 橄榄绿文字；红色印章；额外抒情副标题；未提供的景点、商店、时刻.
-Print header exactly: "DAY 01 · 杭州". Date: "2027-03-21". Main title: "湖边 · 午饭 · 喝茶（虚构行程）".
-Use a readable chronological time line as the main content, with modest supporting scenes at the side.
-Create the full page with every supplied copy item, readable type and exact dates.
-Preserve supplied order and title. Never invent missing times, visits, purchases or photo subjects.
-time.kind=end is an END time; range is a separate interval; unknown has no invented clock label.
-Approximate or proposed facts remain approximate or proposed. Do not claim they are verified actual events.
-No added slogan, subtitle, address or footer unless present in approved copy.
-Do not print JSON keys, ids, status, source metadata or the data delimiters. Print only the supplied header, title, times, labels and notes.
-DATA_JSON_BEGIN
-{"header":{"id":"day-one","tripDay":1,"date":"2027-03-21","city":"杭州","title":"湖边 · 午饭 · 喝茶（虚构行程）"},"part":1,"totalParts":1,"copy":[{"id":"entry-1","time":{"kind":"approximate","display":"09:30"},"label":"湖边散步","notes":[],"status":"confirmed"},{"id":"entry-2","time":{"kind":"approximate","display":"12:00"},"label":"午饭","notes":["简单吃饭"],"status":"confirmed"},{"id":"entry-3","time":{"kind":"approximate","display":"14:30"},"label":"喝茶与休息","notes":[],"status":"confirmed"},{"id":"entry-4","time":{"kind":"approximate","display":"17:00"},"label":"结束一天","notes":[],"status":"confirmed"}]}
-DATA_JSON_END
+Use case: infographic-diagram, with high-quality editorial watercolor travel illustration.
+Asset type: a finished 2:3 portrait travel-journal PNG, ideally 1024 × 1536 pixels, for the public example of an open-source travel-image project.
+
+Create a NEW, beautiful illustrated travel-journal page using the exact fictional itinerary below. It should feel like an accomplished illustrator's carefully composed watercolor sketchbook, with elegant typography and rich scenic detail. Prioritize a cohesive, airy, visually compelling composition, nuanced watercolor, fine ink drawing and excellent Chinese lettering.
+
+VISUAL DIRECTION:
+Warm ivory cotton paper, a subtle natural paper grain, deep indigo ink lettering, translucent lake-blue washes, fresh natural foliage greens, restrained golden sunlight and small warm brown accents. Let white paper breathe between shapes. The artwork should have sophisticated layered brushwork and convincing architectural and botanical detail, without looking noisy, plastic, photorealistic, or like generic clip art.
+A continuous lakeside landscape should carry much of the right half and lower page: willow branches, quiet water with delicate reflections, a distant small traditional pagoda and wooded ridge, a lakeside walkway and a low stone bridge. Integrate a modest lunch still life and a beautiful celadon tea setting naturally into this visual story, with soft watercolor edges. The scenery is imagined supporting illustration, not a labeled map or a claim about specific visited landmarks.
+Vary scenic scale and silhouette. Avoid four identically sized disconnected rectangular vignette boxes. Avoid repeating the same lake/pagoda scene at multiple scales. Decorative foliage may lightly frame a corner; keep the page clear and graceful.
+
+LAYOUT AND TYPE:
+Keep the header compact and refined, so illustration and content have more room. DAY 01 and the city are medium-sized indigo brush lettering, not an enormous heavy banner. Put the date nearby in small neat handwriting. The main title should have clear but restrained hierarchy and generous margins. Render its parenthetical fictional-itinerary text smaller while retaining all characters.
+A slender delicate chronological line organizes four legible entries down the left half. Time labels are compact blue watercolor annotations, with clean readable numbers. Activity names use beautiful controlled Chinese brush handwriting at a comfortable size, and the lunch note is visibly smaller. Place the entries with balanced vertical rhythm. Keep the flow of text distinct from the connected illustration. No overlaps or cropped text. Do not fill the page with giant words. Do not add a heavy blue underline across the page.
+
+EXACT PRINTED TEXT, in this reading order:
+"DAY 01 · 杭州"
+"2027-03-21"
+"湖边 · 午饭 · 喝茶（虚构行程）"
+"09:30"
+"湖边散步"
+"12:00"
+"午饭"
+"简单吃饭"
+"14:30"
+"喝茶与休息"
+"17:00"
+"结束一天"
+
+CONTENT CONSTRAINTS:
+These four entries and the one lunch note are the complete itinerary. All four times are approximate times of an explicitly fictional future plan; keep their displayed labels exactly as supplied. Preserve their order and all Chinese characters. No additional destination names, purchases, events, clock times, slogans, subtitles, credits, footer text, logos, seals or watermarks. Do not invent a specific restaurant or tourist attraction name. No olive-green lettering, red stamp graphics, UI cards, photograph borders or faux 3D paper objects. All typography must be readable deep indigo. Produce a polished single flat full-page illustration, not a photograph of a journal or a website mockup.

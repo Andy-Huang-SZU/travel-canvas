@@ -1,11 +1,19 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "travel-canvas",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "description": "旅行图片工作流：请求编译、可配置API、原生收图、核对与打包。Alpha；真实API和跨宿主执行仍待验证。",
-  "author": {"name":"Andy-Huang-SZU","url":"https://github.com/Andy-Huang-SZU"},
+  "author": {
+    "name": "Andy-Huang-SZU",
+    "url": "https://github.com/Andy-Huang-SZU"
+  },
   "repository": "https://github.com/Andy-Huang-SZU/travel-canvas",
   "homepage": "https://github.com/Andy-Huang-SZU/travel-canvas#readme",
   "license": "MIT",
-  "keywords": ["travel","image-generation","agent-skills","itinerary"]
+  "keywords": [
+    "travel",
+    "image-generation",
+    "agent-skills",
+    "itinerary"
+  ]
 }

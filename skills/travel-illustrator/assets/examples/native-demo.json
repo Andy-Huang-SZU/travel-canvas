@@ -1,24 +1,26 @@
 {
   "schemaVersion": "1.0",
   "id": "native-demo",
-  "revision": "1",
+  "revision": "2",
   "intent": "plan",
   "locale": "zh-CN",
   "days": [
     {
       "id": "day-one",
       "tripDay": 1,
-      "date": "2027-03-21",
-      "city": "杭州",
-      "title": "湖边 · 午饭 · 喝茶（虚构行程）",
+      "date": "2027-04-05",
+      "city": "京都",
+      "title": "清水寺 · 祇园 · 鸭川（虚构行程）",
       "entries": [
         {
           "id": "entry-1",
-          "label": "湖边散步",
-          "notes": [],
+          "label": "京都早餐",
+          "notes": [
+            "热茶与饭团"
+          ],
           "time": {
             "kind": "approximate",
-            "display": "09:30"
+            "display": "07:30"
           },
           "provenance": {
             "sourceId": "fictional-demo",
@@ -28,9 +30,65 @@
         },
         {
           "id": "entry-2",
+          "label": "清水寺参观",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "08:30"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-3",
+          "label": "三年坂漫步",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "09:40"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-4",
+          "label": "二年坂拍照",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "10:20"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-5",
+          "label": "八坂之塔远眺",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "11:10"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-6",
           "label": "午饭",
           "notes": [
-            "简单吃饭"
+            "日式定食"
           ],
           "time": {
             "kind": "approximate",
@@ -43,12 +101,12 @@
           "visibility": "public"
         },
         {
-          "id": "entry-3",
-          "label": "喝茶与休息",
+          "id": "entry-7",
+          "label": "八坂神社参观",
           "notes": [],
           "time": {
             "kind": "approximate",
-            "display": "14:30"
+            "display": "13:20"
           },
           "provenance": {
             "sourceId": "fictional-demo",
@@ -57,12 +115,70 @@
           "visibility": "public"
         },
         {
-          "id": "entry-4",
-          "label": "结束一天",
+          "id": "entry-8",
+          "label": "圆山公园散步",
           "notes": [],
           "time": {
             "kind": "approximate",
-            "display": "17:00"
+            "display": "14:10"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-9",
+          "label": "抹茶与休息",
+          "notes": [
+            "抹茶与甜点"
+          ],
+          "time": {
+            "kind": "approximate",
+            "display": "15:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-10",
+          "label": "祇园小巷漫步",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "16:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-11",
+          "label": "鸭川看夕阳",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "17:30"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-12",
+          "label": "先斗町晚饭",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "19:00"
           },
           "provenance": {
             "sourceId": "fictional-demo",
@@ -88,6 +204,6 @@
   },
   "metadata": {
     "simulated": true,
-    "note": "用于开源工作流的虚构成图验证，非真实出行记录或旅行建议。"
+    "note": "用于展示密集旅行手账的虚构一日行程；时间、路线和春日场景均为艺术示例，非真实出行记录、实测路线或旅行建议。"
   }
 }

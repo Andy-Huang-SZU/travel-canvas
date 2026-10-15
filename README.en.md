@@ -5,7 +5,7 @@
 
 Turn supplied travel facts into illustrated itinerary pages and reusable generation materials. Keep facts, output scope, visual templates and providers separate. Includes a self-contained Agent Skill, CLI and Codex plugin wrapper.
 
-**0.1.1-alpha.** Planning, native/manual collection, configurable API transports, evidence binding and ZIP packaging are implemented. Paid providers, other host execution and the final precise-layout renderer remain unverified or unfinished. The presentation document uses a separate version.
+**0.1.2-alpha.** Planning, native/manual collection, configurable API transports, evidence binding and ZIP packaging are implemented. Paid providers, other host execution and the final precise-layout renderer remain unverified or unfinished. The presentation document uses a separate version.
 
 ## Try it
 
@@ -22,7 +22,7 @@ npm run smoke
 
 The demo replays the bundled fictional example through planning, collection and draft ZIP packaging. It does not generate a new image or call a provider. The generated ZIP remains a draft-package, not new visual review or user acceptance. Files appear under the directory printed by the command.
 
-Inspect the [real fictional native-tool image](skills/travel-illustrator/assets/demos/native-demo.png), [execution prompt](skills/travel-illustrator/assets/demos/native-demo.prompt.txt) and [provenance receipt](skills/travel-illustrator/assets/demos/native-demo.receipt.json).
+Inspect the [real twelve-entry fictional Kyoto image](skills/travel-illustrator/assets/demos/native-demo.png), [execution prompt](skills/travel-illustrator/assets/demos/native-demo.prompt.txt) and [provenance receipt](skills/travel-illustrator/assets/demos/native-demo.receipt.json).
 
 ## Install the Skill
 

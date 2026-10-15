@@ -3,7 +3,7 @@ name: travel-illustrator
 description: Turn a supplied travel plan, travel record, or travel photos into illustrated itinerary pages, trip overviews, or photo journals. Use for travel image creation and reusable prompt bundles; preserve supplied facts, time meanings and chosen style.
 license: MIT
 metadata:
-  version: "0.1.1-alpha"
+  version: "0.1.2-alpha"
 ---
 
 Produce the user's requested travel images and reusable generation materials. Planning is offline. The runtime can call explicitly configured OpenAI Images, Gemini image or OpenAI-compatible APIs, collect native/manual results, bind review evidence and package selected pages. Precise-layout page rendering remains unimplemented.

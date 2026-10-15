@@ -5,11 +5,11 @@
 
 把旅行资料整理成有依据的内容，再用可替换的模板和生图工具制作旅行图片。提供独立 Agent Skill、CLI 和 Codex 插件封装。
 
-**当前版本：0.1.1-alpha。** 已实现请求编译、原生/手动收图、API 驱动、核对记录绑定和 ZIP 交付。真实付费 API、其他宿主完整执行和最终精确排版器尚未验证或完成。展示方案与代码分别维护版本。
+**当前版本：0.1.2-alpha。** 已实现请求编译、原生/手动收图、API 驱动、核对记录绑定和 ZIP 交付。真实付费 API、其他宿主完整执行和最终精确排版器尚未验证或完成。展示方案与代码分别维护版本。
 
-<img src="skills/travel-illustrator/assets/demos/native-demo.png" width="320" alt="杭州虚构行程的实际原生成图示例，包含湖边散步、午饭、喝茶和结束一天四条活动">
+<img src="skills/travel-illustrator/assets/demos/native-demo.png" width="320" alt="京都虚构密集行程的实际原生成图示例，包含从早餐到晚饭的十二条活动">
 
-图为本项目通过当前 Codex 原生工具实际生成的**虚构示例**，附[执行提示词](skills/travel-illustrator/assets/demos/native-demo.prompt.txt)和[来源回执](skills/travel-illustrator/assets/demos/native-demo.receipt.json)。
+图为本项目通过当前 Codex 原生工具实际生成的**京都十二条虚构行程示例**，附[执行提示词](skills/travel-illustrator/assets/demos/native-demo.prompt.txt)和[来源回执](skills/travel-illustrator/assets/demos/native-demo.receipt.json)。
 
 ## 两分钟试通项目
 

@@ -1,21 +1,23 @@
 {
-  "source": "Built-in imagegen in Codex; fictional public demonstration redesigned at the user’s request",
-  "jobId": "native-demo-r1-p01",
-  "contentDigest": "53fa5213eb4958d2847bffe836561fb46d29c0fdc3f9528864f8e564e8add035",
+  "source": "Built-in imagegen in Codex; fictional dense Kyoto travel-journal demonstration",
+  "jobId": "native-demo-r2-p01",
+  "contentDigest": "f373fc9c33c22f72e33371b28df18e9b19c70414c47d324468d723c4303d5f24",
   "image": "native-demo.png",
   "observedSize": [
     1024,
     1536
   ],
-  "sha256": "79c4e11fceb570952448b031a373119fbbfd773a4a40ba881a4248f1cdb39d47",
+  "sha256": "da5f6687434f96b346e15c7fdc2e6bc0a216288a0b8f92f8016d5968865142ad",
   "prompt": "native-demo.prompt.txt",
-  "executedPromptDigest": "1af0d6079d7e1a5d7b57273d559a7ee56ff2bad1e2a50655bcb9e97280b1e831",
+  "executedPromptDigest": "b4c640d0e759fd1fdbef8139b9a6a73feac50cd9cb63aa04523b98c191e21a3a",
   "model": null,
   "reviewMethod": "agent-visual",
   "userAcceptance": "not-recorded",
-  "scope": "Same fictional itinerary; redesigned artwork with the actual executed prompt preserved. New native generation, not a live paid API or other-host test.",
-  "generationRevision": 2,
-  "previousArtifactSha256": "b414605ab9f2ee1d1ecd66f65629b3dd38de5d3ea6e98d0b2572cfd1e4dc2b8c",
-  "reviewNotes": "Inspected the newly generated image: DAY 01 杭州; 2027-03-21; fictional itinerary title; 09:30 湖边散步; 12:00 午饭 and 简单吃饭; 14:30 喝茶与休息; 17:00 结束一天. All entries readable, in order and without overlap. Connected watercolor scenery is illustrative, not geographic evidence.",
-  "workflowValidation": "Compiled request, actual image collection, bound agent visual review and reviewed ZIP verified for this artwork revision."
+  "generationRevision": 3,
+  "inputRevision": "2",
+  "entryCount": 12,
+  "previousArtifactSha256": "79c4e11fceb570952448b031a373119fbbfd773a4a40ba881a4248f1cdb39d47",
+  "scope": "Twelve approximate-time entries in an explicitly fictional Kyoto example. Scenic architecture, cherry blossoms and route arrangement are artistic, not a verified itinerary, bloom forecast or geographic evidence.",
+  "reviewNotes": "Inspected all twelve rows and three notes in the generated image: 07:30 京都早餐 / 热茶与饭团; 08:30 清水寺参观; 09:40 三年坂漫步; 10:20 二年坂拍照; 11:10 八坂之塔远眺; 12:00 午饭 / 日式定食; 13:20 八坂神社参观; 14:10 圆山公园散步; 15:00 抹茶与休息 / 抹茶与甜点; 16:00 祇园小巷漫步; 17:30 鸭川看夕阳; 19:00 先斗町晚饭. DAY 01 京都, date 2027-04-05 and fictional-title qualifier visible. All twelve time/activity pairs and three notes are legible, ordered and separate. Lantern lettering repeats supplied 先斗町. No extra itinerary stops or clock labels observed.",
+  "workflowValidation": "Twelve-entry dense request, actual native image collection, bound agent visual review and reviewed ZIP verified."
 }

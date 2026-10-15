@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact Result 1.0 proposed contract",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "jobId",
+    "contentDigest",
+    "artifactKind",
+    "file",
+    "observedSize",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "jobId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentDigest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "artifactKind": {
+      "enum": [
+        "art",
+        "page"
+      ]
+    },
+    "file": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observedSize": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": 256,
+          "maximum": 8192
+        },
+        {
+          "type": "integer",
+          "minimum": 256,
+          "maximum": 8192
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "status": {
+      "enum": [
+        "generated",
+        "needs-review",
+        "reviewed",
+        "rejected"
+      ]
+    },
+    "provider": {
+      "type": "object"
+    },
+    "usage": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "coverageEvidence": {
+      "type": "object",
+      "required": [
+        "method",
+        "reviewer",
+        "matchedIds",
+        "checkedSemantics",
+        "checkedNoInventedCopy"
+      ],
+      "properties": {
+        "method": {
+          "enum": [
+            "agent-visual",
+            "human",
+            "ocr+human"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "matchedIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$"
+          },
+          "uniqueItems": true
+        },
+        "checkedSemantics": {
+          "type": "boolean"
+        },
+        "checkedNoInventedCopy": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "artifactSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

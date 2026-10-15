@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Portable Render Request 1.0",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "jobId",
+    "projectId",
+    "revision",
+    "artifactIndex",
+    "tripDay",
+    "format",
+    "skin",
+    "renderMode",
+    "execution",
+    "action",
+    "requestedSize",
+    "coverageTargets",
+    "copy",
+    "assetRefs",
+    "prompt",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "jobId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "projectId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifactIndex": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "tripDay": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "format": {
+      "enum": [
+        "day-timeline",
+        "trip-overview",
+        "photo-memory"
+      ]
+    },
+    "skin": {
+      "type": "object",
+      "required": [
+        "id",
+        "version"
+      ]
+    },
+    "renderMode": {
+      "enum": [
+        "whole-image",
+        "precise-layout"
+      ]
+    },
+    "execution": {
+      "enum": [
+        "native",
+        "api",
+        "manual"
+      ]
+    },
+    "action": {
+      "enum": [
+        "generate-page",
+        "generate-art"
+      ]
+    },
+    "requestedSize": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": 256,
+          "maximum": 8192
+        },
+        {
+          "type": "integer",
+          "minimum": 256,
+          "maximum": 8192
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "requireExactSize": {
+      "type": "boolean"
+    },
+    "coverageTargets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "id"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "entry",
+              "day"
+            ]
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "copy": {
+      "type": "array",
+      "minItems": 1
+    },
+    "assetRefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "uri",
+          "role",
+          "rights"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$"
+          },
+          "uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "photo",
+              "style-reference"
+            ]
+          },
+          "rights": {
+            "enum": [
+              "user-owned",
+              "permitted",
+              "unknown"
+            ]
+          },
+          "dayId": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,79}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "const": "planned"
+    },
+    "contentDigest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "projectSnapshotDigest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "capabilitiesVerified": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

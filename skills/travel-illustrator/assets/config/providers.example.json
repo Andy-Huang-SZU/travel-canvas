@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "default": "manual",
+  "providers": {
+    "manual": {
+      "driver": "manual"
+    },
+    "native": {
+      "driver": "agent-native"
+    },
+    "openai": {
+      "driver": "openai-images",
+      "baseUrl": "https://api.openai.com/v1",
+      "model": "MODEL_ID",
+      "apiKeyEnv": "TRAVEL_OPENAI_API_KEY",
+      "outputFormat": "png",
+      "timeoutMs": 180000
+    },
+    "gemini": {
+      "driver": "gemini-image",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1",
+      "model": "MODEL_ID",
+      "apiKeyEnv": "TRAVEL_GEMINI_API_KEY",
+      "imageConfigStyle": "response-format",
+      "imageSize": "1K",
+      "timeoutMs": 180000
+    },
+    "compatible": {
+      "driver": "openai-compatible",
+      "baseUrl": "https://your-provider.example/v1",
+      "model": "MODEL_ID",
+      "apiKeyEnv": "TRAVEL_IMAGE_API_KEY",
+      "responseFormat": "b64_json",
+      "referenceMode": "disabled",
+      "timeoutMs": 180000
+    }
+  }
+}

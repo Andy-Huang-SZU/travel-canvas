@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "id": "overview-demo",
+  "revision": "1",
+  "intent": "plan",
+  "locale": "zh-CN",
+  "days": [
+    {
+      "id": "day-1",
+      "tripDay": 1,
+      "date": "2027-03-21",
+      "city": "杭州",
+      "title": "第1天（虚构示例）",
+      "entries": [
+        {
+          "id": "entry-1",
+          "label": "一天的活动",
+          "notes": [],
+          "time": {
+            "kind": "unknown",
+            "display": ""
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "tripDay": 2,
+      "date": "2027-03-22",
+      "city": "杭州",
+      "title": "第2天（虚构示例）",
+      "entries": [
+        {
+          "id": "entry-2",
+          "label": "一天的活动",
+          "notes": [],
+          "time": {
+            "kind": "unknown",
+            "display": ""
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "tripDay": 3,
+      "date": "2027-03-23",
+      "city": "杭州",
+      "title": "第3天（虚构示例）",
+      "entries": [
+        {
+          "id": "entry-3",
+          "label": "一天的活动",
+          "notes": [],
+          "time": {
+            "kind": "unknown",
+            "display": ""
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "brief": {
+    "format": "trip-overview",
+    "skin": "indigo-journal",
+    "renderMode": "auto",
+    "size": [
+      1024,
+      1536
+    ],
+    "allowSplit": true,
+    "requireExactSize": false,
+    "publication": "private"
+  },
+  "metadata": {
+    "simulated": true,
+    "note": "仅说明输入格式，不是旅行建议或真实出行记录。"
+  }
+}

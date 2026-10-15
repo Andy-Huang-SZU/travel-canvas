@@ -1,0 +1,13 @@
+runs/
+.env
+.env.*
+!.env.example
+private/
+node_modules/
+providers.local.json
+*.local.json
+dist/
+.DS_Store
+.agents/skills/
+outputs/
+trip.json

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "indigo-journal",
+  "version": "0.1.0",
+  "direction": "暖白纤维纸，靛蓝毛笔标题，淡蓝水彩时间标记，细墨线；精致小场景作为辅助，正文优先。自然绿植和红色建筑可以出现。",
+  "avoid": [
+    "橄榄绿文字",
+    "红色印章",
+    "额外抒情副标题",
+    "未提供的景点、商店、时刻"
+  ],
+  "standardEntries": 8,
+  "denseEntries": 15,
+  "maxTextUnits": 620,
+  "role": "visual-skin",
+  "contentFormats": [
+    "day-timeline",
+    "trip-overview",
+    "photo-memory"
+  ],
+  "generatedFrom": "scripts/core/plan.mjs::SKINS",
+  "referenceAsset": "Optional user-supplied asset; do not silently bundle private references.",
+  "capacityNote": "Initial heuristic, not measured typography or a readability guarantee.",
+  "providerParameters": "Stored in provider configuration, not in this template."
+}

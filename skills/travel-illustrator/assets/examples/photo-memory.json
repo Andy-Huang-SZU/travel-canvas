@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "id": "photo-demo",
+  "revision": "1",
+  "intent": "plan",
+  "locale": "zh-CN",
+  "days": [
+    {
+      "id": "day-one",
+      "tripDay": 1,
+      "date": "2027-03-21",
+      "city": "杭州",
+      "title": "湖边 · 喝茶 · 慢慢走（虚构示例）",
+      "entries": [
+        {
+          "id": "entry-1",
+          "label": "湖边散步",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "09:30"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-2",
+          "label": "午饭",
+          "notes": [
+            "按自己已选的店铺填写"
+          ],
+          "time": {
+            "kind": "approximate",
+            "display": "12:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-3",
+          "label": "喝茶与休息",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "14:30"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-4",
+          "label": "结束一天",
+          "notes": [],
+          "time": {
+            "kind": "approximate",
+            "display": "17:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "photo-one",
+      "uri": "./private/user-photo.jpg",
+      "role": "photo",
+      "rights": "user-owned",
+      "dayId": "day-one"
+    }
+  ],
+  "brief": {
+    "format": "photo-memory",
+    "skin": "indigo-journal",
+    "renderMode": "auto",
+    "size": [
+      1024,
+      1536
+    ],
+    "allowSplit": false,
+    "requireExactSize": false,
+    "publication": "private"
+  },
+  "metadata": {
+    "simulated": true,
+    "note": "路径是待替换的用户照片；示例包未附照片，不能据此声称已完成合成。"
+  }
+}

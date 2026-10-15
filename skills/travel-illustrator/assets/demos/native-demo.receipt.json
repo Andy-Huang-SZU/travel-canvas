@@ -1,0 +1,17 @@
+{
+  "source": "Built-in image generation in Codex, using fictional public-demo input",
+  "jobId": "native-demo-r1-p01",
+  "contentDigest": "53fa5213eb4958d2847bffe836561fb46d29c0fdc3f9528864f8e564e8add035",
+  "image": "native-demo.png",
+  "observedSize": [
+    1024,
+    1536
+  ],
+  "sha256": "b414605ab9f2ee1d1ecd66f65629b3dd38de5d3ea6e98d0b2572cfd1e4dc2b8c",
+  "prompt": "native-demo.prompt.txt",
+  "executedPromptDigest": "ed4dcd314710c998b7ac380291cf5fdb02c046d993fb40f00de63af4b4d178ad",
+  "model": null,
+  "reviewMethod": "agent-visual",
+  "userAcceptance": "not-recorded",
+  "scope": "One real native-tool example, not a benchmark or proof of other hosts or paid API services."
+}

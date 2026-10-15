@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "1.0",
+  "id": "park-demo",
+  "revision": "1",
+  "intent": "record",
+  "locale": "zh-CN",
+  "days": [
+    {
+      "id": "day-one",
+      "tripDay": 1,
+      "date": "2027-05-12",
+      "city": "主题乐园",
+      "title": "一日乐园 · 项目与休息（虚构示例）",
+      "entries": [
+        {
+          "id": "entry-1",
+          "label": "起床",
+          "notes": [],
+          "time": {
+            "kind": "start",
+            "display": "06:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-2",
+          "label": "抵达乐园",
+          "notes": [],
+          "time": {
+            "kind": "start",
+            "display": "07:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-3",
+          "label": "入场",
+          "notes": [],
+          "time": {
+            "kind": "start",
+            "display": "09:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-4",
+          "label": "项目 A",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "09:20"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-5",
+          "label": "项目 B",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "09:45"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-6",
+          "label": "项目 C",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "10:50"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-7",
+          "label": "披萨午饭",
+          "notes": [],
+          "time": {
+            "kind": "start",
+            "display": "11:40"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-8",
+          "label": "观看演出",
+          "notes": [],
+          "time": {
+            "kind": "start",
+            "display": "12:15"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-9",
+          "label": "项目 D",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "13:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-10",
+          "label": "项目 E",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "14:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-11",
+          "label": "避雨休息",
+          "notes": [
+            "避雨、吃汉堡"
+          ],
+          "time": {
+            "kind": "range",
+            "display": "14:00–15点多"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-12",
+          "label": "项目 F",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "17:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-13",
+          "label": "项目 G",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "18:00"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-14",
+          "label": "项目 H",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "19:10"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        },
+        {
+          "id": "entry-15",
+          "label": "项目 I",
+          "notes": [],
+          "time": {
+            "kind": "end",
+            "display": "19:50"
+          },
+          "provenance": {
+            "sourceId": "fictional-demo",
+            "status": "confirmed"
+          },
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "brief": {
+    "format": "day-timeline",
+    "skin": "indigo-journal",
+    "renderMode": "auto",
+    "size": [
+      1024,
+      1536
+    ],
+    "allowSplit": false,
+    "requireExactSize": false,
+    "publication": "private"
+  },
+  "metadata": {
+    "simulated": true,
+    "note": "仅说明输入格式，不是旅行建议或真实出行记录。"
+  }
+}

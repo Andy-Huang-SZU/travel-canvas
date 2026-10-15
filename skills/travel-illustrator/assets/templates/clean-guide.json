@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "id": "clean-guide",
+  "version": "0.1.0",
+  "direction": "清爽旅行指南，白底深蓝文字，清晰标题层次与大留白，少量辅助插画。",
+  "avoid": [
+    "复杂纹理覆盖正文",
+    "未提供的景点、商店、时刻"
+  ],
+  "standardEntries": 10,
+  "denseEntries": 18,
+  "maxTextUnits": 760,
+  "role": "visual-skin",
+  "contentFormats": [
+    "day-timeline",
+    "trip-overview",
+    "photo-memory"
+  ],
+  "generatedFrom": "scripts/core/plan.mjs::SKINS",
+  "referenceAsset": "Optional user-supplied asset; do not silently bundle private references.",
+  "capacityNote": "Initial heuristic, not measured typography or a readability guarantee.",
+  "providerParameters": "Stored in provider configuration, not in this template."
+}
